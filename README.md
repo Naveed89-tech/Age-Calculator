@@ -36,7 +36,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [github](https://github.com/Naveed89-tech/Age-Calculator)
-- Live Site URL: [Age Calculator](https://newsletter-signup-form-f.netlify.app/)
+- Live Site URL: [Age Calculator](https://age-calculator-32.netlify.app/)
 
 ## My process
 
