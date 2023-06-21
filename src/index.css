@@ -1,13 +1,40 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,700;1,400;1,800&display=swap");
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@layer components {
+  .input {
+    @apply block   sm:w-1/2 w-full  rounded-md border-0 md:px-3.5 px-2 md:py-4 py-2 md:text-lg  font-bold text-gray-900 shadow-sm ring-1 ring-inset  ring-gray-300 md:placeholder:text-xl placeholder:text-base placeholder:text-gray-400 focus:ring-1 focus:ring-inset focus:ring-violet-600 sm:text-sm sm:mb-2 mb-1 sm:leading-6;
+  }
+  .label {
+    @apply block font-['Poppins']  md:text-base text-sm font-bold leading-6 text-gray-500
+  }
+  .count-text {
+    @apply font-['Poppins'] font-bold italic md:text-8xl sm:text-6xl text-5xl
+  }
+  .count-number {
+    @apply mr-2 font-['Poppins'] font-bold text-violet-600 md:text-8xl sm:text-6xl text-5xl
+  }
+  .error {
+    @apply font-Poppins italic font-thin text-xs  text-red-300 pt-3 
+  }
+}
+@layer base {
+  body {
+    background-color: hsl(0, 0%, 94%);
+    
+  }
+  input[type="number"]::-webkit-inner-spin-button,
+  input[type="number"]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+  }
+  p {
+    font-size: 12px;
+    margin-top: 12px;
+    font-weight: 100;
+    color:rgb(252 165 165);
+    font-family:'Poppins'
+  }
 }
