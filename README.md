@@ -1,70 +1,74 @@
-# Getting Started with Create React App
+# Age Calculator with all possible validations
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is a solution to the Age calculator challenge on Frontend Mentor.
+## Table of contents
 
-## Available Scripts
+- [Overview](#overview)
+  - [The challenge](#the-challenge)
+  - [Screenshot](#screenshot)
+  - [Links](#links)
+- [My process](#my-process)
+  - [Built with](#built-with)
+  - [What I learned](#what-i-learned)
+  - [Continued development](#continued-development)
+  - [Useful resources](#useful-resources)
+- [Author](#author)
 
-In the project directory, you can run:
+## Overview
 
-### `npm start`
+### The challenge
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Users should be able to:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- Add their the correct date of birth
+- See a Calculated age up to today date after successfully submitting the form
+- See form validation error messages if:
+  - The field is left empty
+  - The date, month or year of birth is not formatted correctly
 
-### `npm test`
+- View the optimal layout for the interface depending on their device's screen size
+- See hover and focus states for all interactive elements on the page
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Screenshot
 
-### `npm run build`
+![](./screenshot.png)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Links
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- Solution URL: [github](https://github.com/Naveed89-tech/Age-Calculator)
+- Live Site URL: [Age Calculator](https://newsletter-signup-form-f.netlify.app/)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## My process
 
-### `npm run eject`
+### Built with
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+- Tailwind CSS 
+- FormWik ( Form validation manually)
+- CSS flex 
+- [React](https://reactjs.org/) - JS library
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### What I learned
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+The project initially seemed simple, but since I am currently learning React, I decided to develop it using React . I found it easier to perform validation using the 'useState' hook in React. However, as I am currently exploring the 'Formik' form react liabray [https://formik.org/docs/overview], I decided to utilize it for my project, particularly for implementing live form validation. Now, the form aligns perfectly with my vision and goals for the project.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## About Formik Introduction
+Let's face it, forms are really verbose in React. To make matters worse, most form helpers do way too much magic and often have a significant performance cost associated with them. Formik is a small library that helps you with the 3 most annoying parts:
 
-## Learn More
+1.  Getting values in and out of form state
+2.  Validation and error messages
+3.  Handling form submission
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+### Continued development
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+As I continue to progress in my journey of learning React, I plan to primarily focus on utilizing the different libraries  in my future projects. I firmly believe that learning by doing is the most effective approach to gaining a better understanding of complex concepts. By actively applying and experimenting with formik, I aim to deepen my knowledge and proficiency in React development.
 
-### Code Splitting
+### Useful resources
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+- [React.dev](https://react.dev/reference/react) - This helped me to understanding concepts
+- [Formik](https://formik.org/docs/overview) - This helped me to understanding concepts
+## Author
 
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- Website - [Naveed](https://naveedtechs.netlify.app/)
+- Twitter - [@Naveed_Tech_T](https://twitter.com/Naveed_Tech_T)
+- LinkedIn- [Muhammad Naveed](https://www.linkedin.com/in/muhammad-naveed-857600231/)
+- Frontend Mentor - [@Naveed89-tech](https://www.frontendmentor.io/profile/Naveed89-tech)
